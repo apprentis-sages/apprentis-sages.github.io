@@ -1,0 +1,64 @@
+#block_page {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+body {
+    max-width: 600px;
+    background-color: #FCFCFA;
+    font-family: Georgia, serif;
+    color: #333;
+}
+
+
+header {
+    font-family: Georgia, "Fredericka the Great", cursive;
+    letter-spacing: -0.1em;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 3em;
+    letter-spacing: -0.07em;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #333;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #555;
+}
+
+nav li {
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #888;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.article p {
+    text-align: justify;
+}
